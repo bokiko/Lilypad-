@@ -60,7 +60,7 @@ source ~/.bashrc
 sudo mkdir -p /lilypad/data
 ```
 
-### 6. Install Bacalhau
+### 6. Install and Start Bacalhau
 
 Bacalhau is a required component for Lilypad to work properly:
 
@@ -71,6 +71,19 @@ curl -sL https://get.bacalhau.org/install.sh | bash
 Verify Bacalhau installation:
 ```bash
 bacalhau version
+```
+
+Start Bacalhau in a tmux session:
+```bash
+sudo tmux new -s bacalhau
+bacalhau serve
+```
+
+Press Ctrl+B then D to detach from the tmux session while keeping Bacalhau running.
+
+Verify Bacalhau is running properly:
+```bash
+bacalhau list
 ```
 
 ### 7. Prepare Your Ethereum Wallet
