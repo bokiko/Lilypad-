@@ -194,7 +194,7 @@ sudo systemctl start lilypad.service
 ## Earning Rewards and Contributing to Lilypad
 
 ### Resource Provider Program
-If you're interested in becoming a Lilypad Resource Provider, first make sure that you meet the minimum hardware requirements, then register in the Lilypad Resource Provider Beta Program. Visit the [Lilypad documentation](https://docs.lilypad.tech/lilypad) for more information.
+If you're interested in becoming a Lilypad Resource Provider, first make sure that you meet the minimum hardware requirements, then register in the [Lilypad Resource Provider Beta Program](https://docs.google.com/forms/d/e/1FAIpQLSeF7xIHuCpwY0X44dqnl4u3weuvmtd5MkZKY0IPlGck4kHx3w/viewform) . Visit the [Lilypad documentation](https://docs.lilypad.tech/lilypad) for more information.
 
 ### Incentives
 If you are interested in contributing to Lilypad, they maintain an active Bounty Board with bonus rewards for creating projects that meet certain criteria. You can also view their events page to see if they will be sponsoring any upcoming hackathons.
