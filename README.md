@@ -60,11 +60,24 @@ source ~/.bashrc
 sudo mkdir -p /lilypad/data
 ```
 
-### 6. Prepare Your Ethereum Wallet
+### 6. Install Bacalhau
+
+Bacalhau is a required component for Lilypad to work properly:
+
+```bash
+curl -sL https://get.bacalhau.org/install.sh | bash
+```
+
+Verify Bacalhau installation:
+```bash
+bacalhau version
+```
+
+### 7. Prepare Your Ethereum Wallet
 
 You need an Ethereum wallet private key to participate in the Lilypad network. Make sure it starts with "0x".
 
-### 7. Start Your Lilypad Node
+### 8. Start Your Lilypad Node
 
 ```bash
 sudo tmux new -s lilypad
@@ -75,7 +88,7 @@ Replace `YOUR_PRIVATE_KEY_HERE` with your actual private key.
 
 **Tip**: Press Ctrl+B then D to detach from the tmux session while keeping it running.
 
-### 8. Check Node Status
+### 9. Check Node Status
 
 To check your node's status:
 ```bash
