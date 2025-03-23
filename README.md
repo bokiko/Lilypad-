@@ -60,7 +60,7 @@ source ~/.bashrc
 sudo mkdir -p /lilypad/data
 ```
 
-### 6. Install and Start Bacalhau
+### 6. Install Bacalhau
 
 Bacalhau is a required component for Lilypad to work properly:
 
@@ -73,35 +73,48 @@ Verify Bacalhau installation:
 bacalhau version
 ```
 
-Start Bacalhau in a tmux session:
+### 7. Create and Start Bacalhau tmux Session
+
+Create a new tmux session for Bacalhau:
 ```bash
 sudo tmux new -s bacalhau
+```
+
+Start Bacalhau in the tmux session:
+```bash
 bacalhau serve
 ```
 
-Press Ctrl+B then D to detach from the tmux session while keeping Bacalhau running.
+**Important:** Detach from the tmux session by pressing **Ctrl+B** then **D**. This keeps Bacalhau running in the background.
 
 Verify Bacalhau is running properly:
 ```bash
 bacalhau list
 ```
 
-### 7. Prepare Your Ethereum Wallet
+### 8. Prepare Your Ethereum Wallet
 
 You need an Ethereum wallet private key to participate in the Lilypad network. Make sure it starts with "0x".
 
-### 8. Start Your Lilypad Node
+### 9. Create Lilypad tmux Session
 
+Create a new tmux session for your Lilypad node:
 ```bash
 sudo tmux new -s lilypad
+```
+
+### 10. Start Your Lilypad Node
+
+Within the tmux session, start your Lilypad node:
+```bash
 ~/bin/lilypad resource-provider --lilynext --web3-private-key=YOUR_PRIVATE_KEY_HERE --offer-modules=gpu-cuda --offer-gpu=1000
 ```
 
 Replace `YOUR_PRIVATE_KEY_HERE` with your actual private key. 
 
-**Tip**: Press Ctrl+B then D to detach from the tmux session while keeping it running.
+**Important:** Detach from the tmux session by pressing **Ctrl+B** then **D**. This keeps your Lilypad node running in the background.
 
-### 9. Check Node Status
+### 11. Check Node Status
 
 To check your node's status:
 ```bash
