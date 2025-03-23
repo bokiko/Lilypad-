@@ -178,6 +178,16 @@ sudo systemctl enable lilypad.service
 sudo systemctl start lilypad.service
 ```
 
+## Earning Rewards and Contributing to Lilypad
+
+### Resource Provider Program
+If you're interested in becoming a Lilypad Resource Provider, first make sure that you meet the minimum hardware requirements, then register in the Lilypad Resource Provider Beta Program. Visit the [Lilypad documentation](https://docs.lilypad.tech/lilypad) for more information.
+
+### Incentives
+If you are interested in contributing to Lilypad, they maintain an active Bounty Board with bonus rewards for creating projects that meet certain criteria. You can also view their events page to see if they will be sponsoring any upcoming hackathons.
+
+Want to contribute without building? View the Lilypad Ambassador Program. Join the [Lilypad Discord](https://discord.com/invite/tnE8SMmsxW) and let them know you've applied!
+
 ## Security Considerations
 
 - Store your private key securely
@@ -187,5 +197,5 @@ sudo systemctl start lilypad.service
 ## Resources
 
 - [Lilypad Documentation](https://docs.lilypad.tech/)
-- [Lilypad Discord](https://discord.gg/lilypad)
+- [Lilypad Discord](https://discord.com/invite/tnE8SMmsxW)
 - [GitHub Repository](https://github.com/Lilypad-Tech/lilypad)
